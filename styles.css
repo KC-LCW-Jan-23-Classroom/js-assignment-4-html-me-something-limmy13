@@ -1,3 +1,4 @@
+
 body {
     margin: 8px;
     display: block;
@@ -13,4 +14,91 @@ body {
 p.funParagraph {
     color:green;
     display:none;
+}
+header {
+	font: 48px 'Shrikhand', Cursive;
+	text-align:center;
+	margin-top:1rem;
+	color:#f0d1aa
+}
+p.intro {
+	color:#000000;
+	font: 18px 'Fanwood Text', Serif;
+	line-height:1.294;
+    margin: 1rem 15rem 2rem 15rem;
+	text-align:center;
+	
+}
+p.text-l {
+	color:#000000;
+	font: 18px 'Fanwood Text', Serif;
+	line-height:1.294;
+    margin: 1rem 1rem 1rem 0;
+	text-align:left;
+}
+p.text-r {
+	color:#000000;
+	font: 18px 'Fanwood Text', Serif;
+	line-height:1.294;
+    margin: 1rem 1rem 1rem 1rem;
+	text-align:right;
+	text-indent:0;
+}
+
+#mainHeading {
+    color:red;
+}
+#testP {
+    color: green;
+}
+.funParagraph {
+    color:green;
+    display:none;
+}
+main {
+    padding: 1rem 0 1rem 0;
+	background-image: linear-gradient(rgb(182, 138, 103), rgb(191, 92, 56));
+}
+div.border{
+	border-color:#a85232;
+	border-style:solid;
+	border-width:8px;
+	border-radius:20px;
+    margin: 2rem 5rem 2rem 5rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+img {
+	max-width:100%;
+	border-radius:10px;
+	opacity: 1;
+}
+div.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row; 
+	flex-wrap:nowrap;
+	margin-bottom: 1rem;
+	text-align:center;
+	gap:10px;
+	
+  }
+ div.caption {
+	font-style: italic;
+	color:#000000;
+	Font-Family: 'Fanwood Text', Serif;
+	Font-Size: 15px;
+ }
+
+a {
+	color:#f0d1aa;
+  }
+
+footer {
+   padding-top:1em;
+  }
+
+#btm {
+	text-align:center;
+	color:#f0d1aa;
 }
