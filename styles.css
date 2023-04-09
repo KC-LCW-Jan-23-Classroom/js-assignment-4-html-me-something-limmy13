@@ -35,7 +35,7 @@ p.intro {
 	color:#000000;
 	font: 18px "Fanwood-Regular";
 	line-height:1.294;
-    margin: 1rem 15rem 2rem 15rem;
+    margin: .5rem 15rem 2rem 15rem;
 	text-align:center;
 	
 }
@@ -68,7 +68,7 @@ p.text-r {
     display:none;
 }
 main {
-    padding: 1rem 0 1rem 0;
+    padding: .3rem 0 1rem 0;
 	background-image: linear-gradient(rgb(182, 138, 103), rgb(191, 92, 56));
 }
 div.border{
